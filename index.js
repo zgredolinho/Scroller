@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const scroller = new Scroller('#root');
+    const rootElement = document.querySelector('#root');
 
-    document.addEventListener('wheel', (event) => scroller.listenScrool(event));
+    const sections = document.querySelectorAll('section');
+
+    document.addEventListener('mousewheel', function(event) {
+        console.log(event.wheelDelta);
+    })
+
     
+
 })
