@@ -5,6 +5,7 @@ html{
     overflow: hidden;
 }
 img{
+    margin: 25px 0;
     max-width: 100%;
 }
 section {
